@@ -20,7 +20,7 @@ An example result:
 
 2. Pull Docker container from https://hub.docker.com/repository/docker/zhangsilu17/cb_norm_damage. Use the command 
 ```bash
-docker pull zhangsilu17/cb_norm_damage
+docker pull zhangsilu17/cb_norm_damage:0.0.5
 ```
 
 
@@ -33,11 +33,11 @@ Put 3D T1 MRI images in nifti forrmat (*.nii.gz) in a input directory <input_dir
 
 3. Command to run:
 ```bash
-docker run --rm -ti -v <input_directory>:/cb_norm_damage/input -v <output_directory>:/cb_norm_damage/output zhangsilu17/cb_norm_damage
+docker run --rm -ti -v <input_directory>:/cb_norm_damage/input -v <output_directory>:/cb_norm_damage/output zhangsilu17/cb_norm_damage:0.0.5
 ```
 4. Outputs
 
-Outputs of each patient are saved under <output_directory>/<patient_ID>. The software detects the largest 3 connected components of the missing volumue and save them as *damage_0.nii.gz, *damage_1.nii.gz, *damage_2.nii.gz. By default, it use the largest component (*damamge_0.nii.gz) as the damage VOI and save it as *damage.nii.gz. 
+Outputs of each patient are saved under <output_directory>/<patient_ID>. The software detects the largest 3 connected components of the missing volumue and save them as *damage_0.nii.gz, *damage_1.nii.gz, *damage_2.nii.gz. By default, it uses the largest component (*damamge_0.nii.gz) as the damage VOI and save it as *damage.nii.gz. 
 
 
 ## Citation
