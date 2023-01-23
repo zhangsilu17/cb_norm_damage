@@ -53,4 +53,4 @@ This software is under active development, and you may run into errors or want a
 
 ## Disclaimer
 
-This software is intended for research purposes only and have not yet been validated for clinical use.
+This software is intended for research purposes only and has not yet been validated for clinical use.
