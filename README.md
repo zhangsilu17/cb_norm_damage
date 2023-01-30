@@ -43,8 +43,8 @@ Outputs of each patient are saved under <output_directory>/<patient_ID>. The sof
 ## Citation
 
 If you use this software in your published work, please cite:
-Zhang, S., McAfee, S., Patay, Z. and Scoggins, M., 2022. Automatic Detection and Segmentation of Postoperative Cerebellar Damage Based on Normalization. arXiv preprint arXiv:2203.02042. https://arxiv.org/abs/2203.02042
 
+Silu Zhang, Stuart McAfee, Zoltan Patay, Soniya Pinto, Matthew A Scoggins, Automatic Detection and Segmentation of Postoperative Cerebellar Damage Based on Normalization, Neuro-Oncology Advances, 2023;, vdad006, https://doi.org/10.1093/noajnl/vdad006
 
 ## Contact
 
